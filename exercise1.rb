@@ -58,3 +58,15 @@ fav_mov[:beauty_and_the_beast] = "1991, 2017"
 fav_mov.each do |movie, date|
   puts "#{movie} was released in #{date}"
 end
+
+puts age.select { |a| a < 30}
+
+puts age.sort.last
+
+puts coin.count("heads")
+
+performing_artists.delete("Julio Eglesias")
+
+cities[:Toronto] = "Elevendy Billion"
+
+puts cities
