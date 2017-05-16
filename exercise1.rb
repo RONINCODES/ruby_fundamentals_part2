@@ -21,7 +21,7 @@ siblings_cousins_friends = {
 
 puts coin
 
-puts fav_colours[0]
+puts fav_colors[0]
 
 puts age.sort
 
@@ -33,7 +33,7 @@ puts age
 
 puts fav_colours.last
 
-cities[:telaviv] = "1000000"
+cities[:telaviv] = 1000000
 
 puts cities
 
@@ -67,6 +67,24 @@ puts coin.count("heads")
 
 performing_artists.delete("Julio Eglesias")
 
-cities[:Toronto] = "Elevendy Billion"
+cities[:Toronto] = 2400
 
-puts cities
+puts cities.values.sum
+
+
+siblings_cousins_friends.each do |name, hash|
+  if hash[:age] < 30
+    puts "#{name} is young"
+  else
+    puts "#{name} is older"
+
+ end
+end
+
+puts fav_colors.last(2)
+
+age.each {|age| puts age + 1}
+
+fav_colors.push("urple", "purple")
+
+puts fav_colors
