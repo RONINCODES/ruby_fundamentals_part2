@@ -88,3 +88,19 @@ age.each {|age| puts age + 1}
 fav_colors.push("urple", "purple")
 
 puts fav_colors
+
+movie_release_dates = {
+  1999 => ["The Matrix", "Star Wars: Episode 1","The Mummy"],
+  2009 => ["Avatar", "Star Trek", "District 9"],
+  2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+}
+puts movie_release_dates
+
+
+phone_rows = [[1,2,3], [4,5,6], ['*',0,'#']]
+
+countries [
+  {:name => "Canada", :continent => "North America", :island => "no"},
+  {:name => "America", :continent => "North America", :island =>"no"},
+  {:name => "Mexico", :continent => "North America", :island => "no"}
+]
