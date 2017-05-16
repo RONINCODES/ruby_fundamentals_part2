@@ -18,3 +18,15 @@ siblings_cousins_friends = {
   :don => {:age => 39, :relationship => "friend"},
   :bob => {:age => 50, :relationship => "cousin"}
 }
+
+puts coin
+
+puts fav_colours[0]
+
+puts age.sort
+
+age << 0
+
+puts age
+
+ puts fav_mov[:rocky]
