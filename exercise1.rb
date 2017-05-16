@@ -30,3 +30,17 @@ age << 0
 puts age
 
  puts fav_mov[:rocky]
+
+puts fav_colours.last
+
+cities[:telaviv] = "1000000"
+
+puts cities
+
+puts coin.reverse
+
+puts cities[:Toronto]
+
+performing_artists.each do |artist|
+  puts "#{artist} is great"
+end 
