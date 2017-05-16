@@ -43,4 +43,18 @@ puts cities[:Toronto]
 
 performing_artists.each do |artist|
   puts "#{artist} is great"
-end 
+end
+
+puts performing_artists.first(2)
+
+fav_mov.each do |movie, date|
+  puts "#{movie} was released in #{date}"
+end
+
+print age.sort.reverse
+
+fav_mov[:beauty_and_the_beast] = "1991, 2017"
+
+fav_mov.each do |movie, date|
+  puts "#{movie} was released in #{date}"
+end
